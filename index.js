@@ -19,6 +19,10 @@ if (randomNumber1 > randomNumber2){
     document.querySelector("h1").innerHTML = "Player 1 Wins!&#129302"
 }
 else if (randomNumber1 < randomNumber2){
-    document.querySelector("h1").innerHTML = "Player 2 Wins!&#129302"
+    document.querySelector("h1").innerHTML = "Player2 Wins!&#129302"
+}
+
+if(randomNumber1 === randomNumber2){
+    document.querySelector("h1").innerHTML = "Draw!!"
 }
 
